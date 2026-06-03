@@ -1,0 +1,11 @@
+{
+  "preview_original": "docs/preview_original.jpg",
+  "preview_overlay": "docs/preview_overlay.jpg",
+  "source_image": "2021_05_06_20_12_14_823673.jpg",
+  "classes": [
+    "Soil",
+    "Crop",
+    "Weed"
+  ],
+  "animated_preview": "docs/bean_dataset_all_images.gif"
+}

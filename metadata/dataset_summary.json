@@ -1,0 +1,17 @@
+{
+  "name": "Bean Dataset",
+  "version": "1.0.0",
+  "format": "COCO segmentation",
+  "images": 228,
+  "annotations": 697,
+  "image_width": 704,
+  "image_height": 480,
+  "classes": [
+    "Soil",
+    "Crop",
+    "Weed"
+  ],
+  "paper": "https://www.mdpi.com/2077-0472/13/2/413",
+  "doi": "10.3390/agriculture13020413",
+  "repository": "https://github.com/gustavu92/bean_dataset"
+}

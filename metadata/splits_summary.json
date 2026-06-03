@@ -1,0 +1,38 @@
+{
+  "random_seed": 42,
+  "total_images": 228,
+  "train_val_test": {
+    "train": 160,
+    "val": 34,
+    "test": 34,
+    "ratio": "70/15/15"
+  },
+  "five_fold": [
+    {
+      "fold": 1,
+      "train": 182,
+      "test": 46
+    },
+    {
+      "fold": 2,
+      "train": 182,
+      "test": 46
+    },
+    {
+      "fold": 3,
+      "train": 182,
+      "test": 46
+    },
+    {
+      "fold": 4,
+      "train": 183,
+      "test": 45
+    },
+    {
+      "fold": 5,
+      "train": 183,
+      "test": 45
+    }
+  ],
+  "note": "The 5-fold split uses all 228 images exactly once as test data across folds. Fold sizes are 46, 46, 46, 45, and 45 because 228 is not divisible by 5."
+}
